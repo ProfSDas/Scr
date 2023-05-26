@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Recruitment Portal</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <header>
+
+        <div class="navbar">
+
+            <p class="logo">Recruitment Portal</p>
+
+                    <nav class="menu">
+
+                        <a href="login.html" onclick="redirectToLoginPage()">Login</a>
+
+                        <a href="signup.html" onclick="redirectToSignupPage()">Signup</a>
+
+                        <a class="active" href="contact.html" onclick="redirectToContactPage()">Contact Us</a>
+
+                    </nav>
+
+        </div>
+
+    </header>
+
+    <div class="loginbox">
+
+        <h1>Request for a callback</h1>
+
+        <form action="response.html">
+
+            <label for="">Email address</label>
+
+            <input type="email" required>
+
+            <label for="">Fullname</label>
+
+            <input type="text" required>
+
+            <label for="">Contact</label>
+
+            <input type="number">
+
+            <button type="submit">Get a callback onclick="redirectToResponsePage"</button>
+
+            <button type="reset">Reset</button>   
+
+        </form> 
+
+    </div>
+
+    <script src="index.js"></script>
+
+</body>
+
+</html>
