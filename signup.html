@@ -42,7 +42,7 @@
 
         <h1>Signup to create an account</h1>
 
-        <form>
+        <form onsubmit="redirectToFillPage(); return false;">
 
             <label for="">Email address</label>
 
@@ -56,13 +56,9 @@
 
             <input type="password">Confirm your password
 
-            <div class="signup-btn">
-
-              <button type="submit" onclick="redirectToFillPage()">Signup</button>
+              <button type="submit">Signup</button>
 
               <button type="reset">Reset</button>
-
-            </div>  
 
         </form> 
 
