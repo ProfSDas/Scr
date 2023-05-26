@@ -1,3 +1,8 @@
+function redirectToHomepage() {
+
+  window.location.href="index.html";
+
+}
 function redirectToFillPage() {
 
   window.location.href="fill.html";
