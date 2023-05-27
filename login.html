@@ -20,12 +20,12 @@
     </header>
     <div class="loginbox">
         <h1>Log in to view your dashboard</h1>
-        <form>
+        <form onsubmit="redirectToHomepage(); return false;">
             <label for="">Email address</label>
             <input type="email" required>
             <label for="">Password</label>
             <input type="password" required>
-            <button type="submit" onclick="redirectToHomepage(); return false;">Login</button>
+            <button type="submit">Login</button>
             <button type="reset">Reset</button>   
         </form>
         <button><a href="forget.html"></a>Forget Password</button> 
